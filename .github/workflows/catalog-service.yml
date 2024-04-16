@@ -9,8 +9,8 @@ on:
 
 jobs:
   build:
-    name:
-      runs-on: windows-latest
+    name: Build
+    runs-on: ubuntu-latest
     env:
       working-directory: ./catalog-service
     defaults:
